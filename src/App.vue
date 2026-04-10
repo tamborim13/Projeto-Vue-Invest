@@ -38,7 +38,7 @@ const handleLogout = async () => {
 
     <nav v-if="authStore.user" class="menu-nav">
       <div class="nav-links">
-        <router-link to="/home"><i class="fa-solid fa-house"></i> Início</router-link>
+        <router-link to="/home"><i class="fa-solid fa-house"></i> Dashboard</router-link>
         <router-link to="/custos"><i class="fa-solid fa-chart-line"></i> Custos</router-link>
         <router-link to="/investimentos"><i class="fa-solid fa-user-gear"></i> Investimentos</router-link>
       </div>
