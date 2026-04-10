@@ -5,6 +5,7 @@ import HomeView from '../views/HomeView.vue'
 import LoginView from '../views/LoginView.vue'
 import CustosView from '../views/CustosView.vue'
 import InvestimentosView from '../views/investimentosView.vue'
+import AnotacaoView from '../views/anotacaoView.vue'
 
 const routes = [
     {
@@ -28,6 +29,12 @@ const routes = [
         path: '/investimentos',
         name: 'Investimentos',
         component: InvestimentosView,
+        meta: { requiresAuth: true }
+    },
+    {
+        path: '/anotacoes',
+        name: 'Anotacoes',
+        component: AnotacaoView,
         meta: { requiresAuth: true }
     }
 

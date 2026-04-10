@@ -41,6 +41,7 @@ const handleLogout = async () => {
         <router-link to="/home"><i class="fa-solid fa-house"></i> Dashboard</router-link>
         <router-link to="/custos"><i class="fa-solid fa-chart-line"></i> Custos</router-link>
         <router-link to="/investimentos"><i class="fa-solid fa-user-gear"></i> Investimentos</router-link>
+        <router-link to="/anotacoes"><i class="fa-solid fa-sticky-note"></i> Anotações</router-link>
       </div>
 
       <button class="logout-btn" @click="handleLogout">
