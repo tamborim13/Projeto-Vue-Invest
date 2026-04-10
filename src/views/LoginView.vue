@@ -57,7 +57,7 @@ const registrar = async () => {
 
             <header class="auth-header">
                 <i class="fa-solid fa-shield-halved logo-icon"></i>
-                <h1>SISTEMA <span>VUE</span></h1>
+                <h1>CONTROL <span>EXPENSES</span></h1>
                 <p class="subtitle">Acesse o terminal de controle</p>
             </header>
 
